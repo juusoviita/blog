@@ -36,6 +36,12 @@ ul {
   margin-bottom: 20px;
 }
 
+.side:hover {
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+}
+
 .article-title {
   color: #444444;
 }
