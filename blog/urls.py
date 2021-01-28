@@ -37,7 +37,7 @@ urlpatterns = [
     path('', include('blogsite.urls'))
 ]
 
-# include this route only, if we are still in debug mode in the settings
+# include this route for profile pictures only, if we are still in debug mode in the settings
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
